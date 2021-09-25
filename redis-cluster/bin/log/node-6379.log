@@ -1,0 +1,153 @@
+1340762:C 18 Jul 2021 16:48:03.274 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1340762:C 18 Jul 2021 16:48:03.274 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=1340762, just started
+1340762:C 18 Jul 2021 16:48:03.274 # Configuration loaded
+1340762:M 18 Jul 2021 16:48:03.275 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1340762:M 18 Jul 2021 16:48:03.275 * monotonic clock: POSIX clock_gettime
+1340762:M 18 Jul 2021 16:48:03.276 * No cluster configuration found, I'm 96295c198a9710c890fbf4143a7f99a25b379ba8
+1340762:M 18 Jul 2021 16:48:03.283 * Running mode=cluster, port=6379.
+1340762:M 18 Jul 2021 16:48:03.283 # Server initialized
+1340762:M 18 Jul 2021 16:48:03.283 * Ready to accept connections
+1340762:M 18 Jul 2021 16:49:57.135 # User requested shutdown...
+1340762:M 18 Jul 2021 16:49:57.135 * Calling fsync() on the AOF file.
+1340762:M 18 Jul 2021 16:49:57.136 * Saving the final RDB snapshot before exiting.
+1340762:M 18 Jul 2021 16:49:57.138 * DB saved on disk
+1340762:M 18 Jul 2021 16:49:57.138 * Removing the pid file.
+1340762:M 18 Jul 2021 16:49:57.138 # Redis is now ready to exit, bye bye...
+1340889:C 18 Jul 2021 16:50:12.944 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1340889:C 18 Jul 2021 16:50:12.944 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=1340889, just started
+1340889:C 18 Jul 2021 16:50:12.944 # Configuration loaded
+1340889:M 18 Jul 2021 16:50:12.945 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1340889:M 18 Jul 2021 16:50:12.945 * monotonic clock: POSIX clock_gettime
+1340889:M 18 Jul 2021 16:50:12.945 * Node configuration loaded, I'm 96295c198a9710c890fbf4143a7f99a25b379ba8
+1340889:M 18 Jul 2021 16:50:12.945 * Running mode=cluster, port=6379.
+1340889:M 18 Jul 2021 16:50:12.945 # Server initialized
+1340889:M 18 Jul 2021 16:50:12.945 * Ready to accept connections
+1340889:M 18 Jul 2021 16:50:29.870 # configEpoch set to 1 via CLUSTER SET-CONFIG-EPOCH
+1340889:M 18 Jul 2021 16:50:29.899 # IP address for this node updated to 127.0.0.1
+1340889:M 18 Jul 2021 16:50:31.878 * Replica 127.0.0.1:6383 asks for synchronization
+1340889:M 18 Jul 2021 16:50:31.878 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '43c6c3ab5a3668f4b8eebebb03de0c99e7d6a6ac', my replication IDs are '7b0e691b5c6a086beeb88c5639447e65e18eb5b2' and '0000000000000000000000000000000000000000')
+1340889:M 18 Jul 2021 16:50:31.878 * Replication backlog created, my new replication IDs are '2cf249846e78a3fe42adb1bbefb2115b5f78c016' and '0000000000000000000000000000000000000000'
+1340889:M 18 Jul 2021 16:50:31.878 * Starting BGSAVE for SYNC with target: disk
+1340889:M 18 Jul 2021 16:50:31.879 * Background saving started by pid 1340925
+1340925:C 18 Jul 2021 16:50:31.885 * DB saved on disk
+1340925:C 18 Jul 2021 16:50:31.886 * RDB: 0 MB of memory used by copy-on-write
+1340889:M 18 Jul 2021 16:50:31.913 * Background saving terminated with success
+1340889:M 18 Jul 2021 16:50:31.913 * Synchronization with replica 127.0.0.1:6383 succeeded
+1340889:M 18 Jul 2021 16:50:34.828 # Cluster state changed: ok
+1340889:M 18 Jul 2021 19:56:28.844 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+1340889:M 18 Jul 2021 19:56:28.844 # Connection with replica 127.0.0.1:6383 lost.
+1340889:M 18 Jul 2021 19:56:28.845 * Replica 127.0.0.1:6383 asks for synchronization
+1340889:M 18 Jul 2021 19:56:28.845 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 14477.
+1340889:M 19 Jul 2021 20:06:02.567 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+1340889:M 19 Jul 2021 20:06:02.567 # Connection with replica 127.0.0.1:6383 lost.
+1340889:M 19 Jul 2021 20:06:02.571 * Replica 127.0.0.1:6383 asks for synchronization
+1340889:M 19 Jul 2021 20:06:02.571 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 134457.
+12438:C 20 Jul 2021 12:55:27.536 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12438:C 20 Jul 2021 12:55:27.537 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=12438, just started
+12438:C 20 Jul 2021 12:55:27.537 # Configuration loaded
+12438:M 20 Jul 2021 12:55:27.537 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+12438:M 20 Jul 2021 12:55:27.537 * monotonic clock: POSIX clock_gettime
+12438:M 20 Jul 2021 12:55:27.538 * Node configuration loaded, I'm 96295c198a9710c890fbf4143a7f99a25b379ba8
+12438:M 20 Jul 2021 12:55:27.538 * Running mode=cluster, port=6379.
+12438:M 20 Jul 2021 12:55:27.538 # Server initialized
+12438:M 20 Jul 2021 12:55:27.539 * Ready to accept connections
+12438:M 20 Jul 2021 12:55:27.541 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 20 Jul 2021 12:55:27.541 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '28295862cf4aaa3300a1726def00e68f1d621403', my replication IDs are '2f47cc131dfb9bd2356469a538806de0a0d6ca1b' and '0000000000000000000000000000000000000000')
+12438:M 20 Jul 2021 12:55:27.541 * Replication backlog created, my new replication IDs are 'c3037857f0080ebe2f45392a6b3152e239eef98d' and '0000000000000000000000000000000000000000'
+12438:M 20 Jul 2021 12:55:27.541 * Starting BGSAVE for SYNC with target: disk
+12438:M 20 Jul 2021 12:55:27.542 * Background saving started by pid 12464
+12464:C 20 Jul 2021 12:55:27.544 * DB saved on disk
+12464:C 20 Jul 2021 12:55:27.544 * RDB: 0 MB of memory used by copy-on-write
+12438:M 20 Jul 2021 12:55:27.641 * Background saving terminated with success
+12438:M 20 Jul 2021 12:55:27.641 * Synchronization with replica 127.0.0.1:6383 succeeded
+12438:M 20 Jul 2021 12:55:29.550 # Cluster state changed: ok
+12438:M 22 Jul 2021 19:59:24.047 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 22 Jul 2021 19:59:24.047 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 22 Jul 2021 19:59:24.048 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 275913.
+12438:M 24 Jul 2021 19:48:06.918 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 24 Jul 2021 19:48:06.920 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 24 Jul 2021 19:48:06.921 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 24 Jul 2021 19:48:06.921 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 515523.
+12438:M 29 Jul 2021 19:55:19.950 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 29 Jul 2021 19:55:19.956 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 29 Jul 2021 19:55:19.974 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 29 Jul 2021 19:55:19.974 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1118181.
+12438:M 30 Jul 2021 20:08:43.636 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 30 Jul 2021 20:08:43.636 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 30 Jul 2021 20:08:43.637 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 30 Jul 2021 20:08:43.637 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1238623.
+12438:M 31 Jul 2021 20:13:13.941 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 31 Jul 2021 20:13:13.941 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 31 Jul 2021 20:13:13.948 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 31 Jul 2021 20:13:13.948 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1357777.
+12438:M 01 Aug 2021 20:13:30.959 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 01 Aug 2021 20:13:30.959 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 01 Aug 2021 20:13:30.960 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 01 Aug 2021 20:13:30.960 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1468251.
+12438:M 02 Aug 2021 20:43:53.327 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 02 Aug 2021 20:43:53.327 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 02 Aug 2021 20:43:53.328 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1587069.
+12438:M 03 Aug 2021 19:53:27.543 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 03 Aug 2021 19:53:28.107 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 03 Aug 2021 19:53:28.108 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 03 Aug 2021 19:53:28.108 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1702877.
+12438:M 04 Aug 2021 11:44:03.844 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 04 Aug 2021 11:44:03.844 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 04 Aug 2021 11:44:03.856 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 04 Aug 2021 11:44:03.856 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 14 bytes of backlog starting from offset 1781417.
+12438:M 04 Aug 2021 19:48:39.723 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 04 Aug 2021 19:48:39.724 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 04 Aug 2021 19:48:39.724 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1821359.
+12438:M 05 Aug 2021 19:49:08.640 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 05 Aug 2021 19:49:08.641 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 05 Aug 2021 19:49:08.642 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 05 Aug 2021 19:49:08.642 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 1941353.
+12438:M 06 Aug 2021 20:05:26.921 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 06 Aug 2021 20:05:26.922 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 06 Aug 2021 20:05:26.922 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 2061963.
+12438:M 07 Aug 2021 19:36:38.736 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 07 Aug 2021 19:36:38.737 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 07 Aug 2021 19:36:38.738 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 07 Aug 2021 19:36:38.738 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 2178107.
+12438:M 09 Aug 2021 19:21:50.019 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 09 Aug 2021 19:21:50.020 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 09 Aug 2021 19:21:50.021 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 09 Aug 2021 19:21:50.021 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 2417507.
+12438:M 10 Aug 2021 20:12:17.418 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 10 Aug 2021 20:12:17.418 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 10 Aug 2021 20:12:17.421 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 10 Aug 2021 20:12:17.421 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 14 bytes of backlog starting from offset 2540427.
+12438:M 11 Aug 2021 16:44:54.727 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 11 Aug 2021 16:44:54.727 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 11 Aug 2021 16:44:54.728 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 11 Aug 2021 16:44:54.728 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 2628893.
+12438:M 13 Aug 2021 16:46:06.453 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 13 Aug 2021 16:46:06.454 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 13 Aug 2021 16:46:06.454 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 2856295.
+12438:M 15 Aug 2021 19:24:32.345 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 15 Aug 2021 19:24:32.345 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 15 Aug 2021 19:24:32.345 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3109121.
+12438:M 16 Aug 2021 20:06:19.418 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 16 Aug 2021 20:06:19.418 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 16 Aug 2021 20:06:19.419 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 16 Aug 2021 20:06:19.419 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3232923.
+12438:M 17 Aug 2021 20:09:09.343 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 17 Aug 2021 20:09:09.343 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 17 Aug 2021 20:09:09.345 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 17 Aug 2021 20:09:09.345 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3352413.
+12438:M 18 Aug 2021 11:21:19.743 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 18 Aug 2021 11:21:19.743 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 18 Aug 2021 11:21:19.744 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 18 Aug 2021 11:21:19.744 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3428209.
+12438:M 18 Aug 2021 19:48:03.032 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 18 Aug 2021 19:48:03.053 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 18 Aug 2021 19:48:03.054 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 18 Aug 2021 19:48:03.054 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3470503.
+12438:M 20 Aug 2021 19:55:09.761 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 20 Aug 2021 19:55:09.771 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 20 Aug 2021 19:55:09.772 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 20 Aug 2021 19:55:09.772 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3711653.
+12438:M 21 Aug 2021 19:58:29.330 # Disconnecting timedout replica (streaming sync): 127.0.0.1:6383
+12438:M 21 Aug 2021 19:58:29.330 # Connection with replica 127.0.0.1:6383 lost.
+12438:M 21 Aug 2021 19:58:29.331 * Replica 127.0.0.1:6383 asks for synchronization
+12438:M 21 Aug 2021 19:58:29.331 * Partial resynchronization request from 127.0.0.1:6383 accepted. Sending 0 bytes of backlog starting from offset 3831871.

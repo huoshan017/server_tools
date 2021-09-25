@@ -1,0 +1,393 @@
+1340767:C 18 Jul 2021 16:48:03.277 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1340767:C 18 Jul 2021 16:48:03.277 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=1340767, just started
+1340767:C 18 Jul 2021 16:48:03.278 # Configuration loaded
+1340767:M 18 Jul 2021 16:48:03.278 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1340767:M 18 Jul 2021 16:48:03.278 * monotonic clock: POSIX clock_gettime
+1340767:M 18 Jul 2021 16:48:03.278 * No cluster configuration found, I'm c572adb82e71d7aa7b20ecf676e70597bf50b92a
+1340767:M 18 Jul 2021 16:48:03.283 * Running mode=cluster, port=6384.
+1340767:M 18 Jul 2021 16:48:03.283 # Server initialized
+1340767:M 18 Jul 2021 16:48:03.283 # The append log file doesn't exist: No such file or directory
+1340767:M 18 Jul 2021 16:48:03.283 * Ready to accept connections
+1340767:M 18 Jul 2021 16:49:57.194 # User requested shutdown...
+1340767:M 18 Jul 2021 16:49:57.194 * Calling fsync() on the AOF file.
+1340767:M 18 Jul 2021 16:49:57.195 * Saving the final RDB snapshot before exiting.
+1340767:M 18 Jul 2021 16:49:57.197 * DB saved on disk
+1340767:M 18 Jul 2021 16:49:57.197 * Removing the pid file.
+1340767:M 18 Jul 2021 16:49:57.197 # Redis is now ready to exit, bye bye...
+1340895:C 18 Jul 2021 16:50:12.945 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1340895:C 18 Jul 2021 16:50:12.945 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=1340895, just started
+1340895:C 18 Jul 2021 16:50:12.945 # Configuration loaded
+1340895:M 18 Jul 2021 16:50:12.946 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1340895:M 18 Jul 2021 16:50:12.946 * monotonic clock: POSIX clock_gettime
+1340895:M 18 Jul 2021 16:50:12.946 * Node configuration loaded, I'm c572adb82e71d7aa7b20ecf676e70597bf50b92a
+1340895:M 18 Jul 2021 16:50:12.947 * Running mode=cluster, port=6384.
+1340895:M 18 Jul 2021 16:50:12.947 # Server initialized
+1340895:M 18 Jul 2021 16:50:12.947 * Ready to accept connections
+1340895:M 18 Jul 2021 16:50:29.872 # configEpoch set to 6 via CLUSTER SET-CONFIG-EPOCH
+1340895:M 18 Jul 2021 16:50:30.000 # IP address for this node updated to 127.0.0.1
+1340895:S 18 Jul 2021 16:50:31.878 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1340895:S 18 Jul 2021 16:50:31.878 * Connecting to MASTER 127.0.0.1:6380
+1340895:S 18 Jul 2021 16:50:31.878 * MASTER <-> REPLICA sync started
+1340895:S 18 Jul 2021 16:50:31.878 # Cluster state changed: ok
+1340895:S 18 Jul 2021 16:50:31.878 * Non blocking connect for SYNC fired the event.
+1340895:S 18 Jul 2021 16:50:31.878 * Master replied to PING, replication can continue...
+1340895:S 18 Jul 2021 16:50:31.879 * Trying a partial resynchronization (request 0b813a6e9a843668c48d6755a80786df912f18ba:1).
+1340895:S 18 Jul 2021 16:50:31.879 * Full resync from master: b936cbb29c67b235a07ead48e8d29d54bf152d59:0
+1340895:S 18 Jul 2021 16:50:31.879 * Discarding previously cached master state.
+1340895:S 18 Jul 2021 16:50:31.916 * MASTER <-> REPLICA sync: receiving 181 bytes from master to disk
+1340895:S 18 Jul 2021 16:50:31.916 * MASTER <-> REPLICA sync: Flushing old data
+1340895:S 18 Jul 2021 16:50:31.917 * MASTER <-> REPLICA sync: Loading DB in memory
+1340895:S 18 Jul 2021 16:50:31.919 * Loading RDB produced by version 255.255.255
+1340895:S 18 Jul 2021 16:50:31.919 * RDB age 0 seconds
+1340895:S 18 Jul 2021 16:50:31.919 * RDB memory usage when created 2.52 Mb
+1340895:S 18 Jul 2021 16:50:31.919 * MASTER <-> REPLICA sync: Finished with success
+1340895:S 18 Jul 2021 16:50:31.920 * Background append only file rewriting started by pid 1340931
+1340895:S 18 Jul 2021 16:50:31.943 * AOF rewrite child asks to stop sending diffs.
+1340931:C 18 Jul 2021 16:50:31.943 * Parent agreed to stop sending diffs. Finalizing AOF...
+1340931:C 18 Jul 2021 16:50:31.943 * Concatenating 0.00 MB of AOF diff received from parent.
+1340931:C 18 Jul 2021 16:50:31.943 * SYNC append only file rewrite performed
+1340931:C 18 Jul 2021 16:50:31.944 * AOF rewrite: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 16:50:32.016 * Background AOF rewrite terminated with success
+1340895:S 18 Jul 2021 16:50:32.016 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+1340895:S 18 Jul 2021 16:50:32.016 * Background AOF rewrite finished successfully
+1340895:S 18 Jul 2021 17:50:13.020 * 1 changes in 3600 seconds. Saving...
+1340895:S 18 Jul 2021 17:50:13.021 * Background saving started by pid 1360361
+1360361:C 18 Jul 2021 17:50:13.028 * DB saved on disk
+1360361:C 18 Jul 2021 17:50:13.029 * RDB: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 17:50:13.121 * Background saving terminated with success
+1340895:S 18 Jul 2021 19:56:29.234 # MASTER timeout: no data nor PING received...
+1340895:S 18 Jul 2021 19:56:29.234 # Connection with master lost.
+1340895:S 18 Jul 2021 19:56:29.234 * Caching the disconnected master state.
+1340895:S 18 Jul 2021 19:56:29.234 * Reconnecting to MASTER 127.0.0.1:6380
+1340895:S 18 Jul 2021 19:56:29.234 * MASTER <-> REPLICA sync started
+1340895:S 18 Jul 2021 19:56:29.234 * Non blocking connect for SYNC fired the event.
+1340895:S 18 Jul 2021 19:56:29.234 * Master replied to PING, replication can continue...
+1340895:S 18 Jul 2021 19:56:29.235 * Trying a partial resynchronization (request b936cbb29c67b235a07ead48e8d29d54bf152d59:14666).
+1340895:S 18 Jul 2021 19:56:29.235 * Successful partial resynchronization with master.
+1340895:S 18 Jul 2021 19:56:29.235 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1340895:S 18 Jul 2021 20:29:16.988 * 1 changes in 3600 seconds. Saving...
+1340895:S 18 Jul 2021 20:29:16.989 * Background saving started by pid 1372046
+1372046:C 18 Jul 2021 20:29:16.991 * DB saved on disk
+1372046:C 18 Jul 2021 20:29:16.992 * RDB: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 20:29:17.089 * Background saving terminated with success
+1340895:S 18 Jul 2021 21:29:18.025 * 1 changes in 3600 seconds. Saving...
+1340895:S 18 Jul 2021 21:29:18.026 * Background saving started by pid 1377168
+1377168:C 18 Jul 2021 21:29:18.033 * DB saved on disk
+1377168:C 18 Jul 2021 21:29:18.034 * RDB: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 21:29:18.126 * Background saving terminated with success
+1340895:S 18 Jul 2021 22:29:19.059 * 1 changes in 3600 seconds. Saving...
+1340895:S 18 Jul 2021 22:29:19.060 * Background saving started by pid 1380527
+1380527:C 18 Jul 2021 22:29:19.063 * DB saved on disk
+1380527:C 18 Jul 2021 22:29:19.063 * RDB: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 22:29:19.161 * Background saving terminated with success
+1340895:S 18 Jul 2021 23:29:20.071 * 1 changes in 3600 seconds. Saving...
+1340895:S 18 Jul 2021 23:29:20.072 * Background saving started by pid 1383130
+1383130:C 18 Jul 2021 23:29:20.079 * DB saved on disk
+1383130:C 18 Jul 2021 23:29:20.080 * RDB: 0 MB of memory used by copy-on-write
+1340895:S 18 Jul 2021 23:29:20.172 * Background saving terminated with success
+1340895:S 19 Jul 2021 20:06:02.934 # MASTER timeout: no data nor PING received...
+1340895:S 19 Jul 2021 20:06:02.935 # Connection with master lost.
+1340895:S 19 Jul 2021 20:06:02.935 * Caching the disconnected master state.
+1340895:S 19 Jul 2021 20:06:02.935 * Reconnecting to MASTER 127.0.0.1:6380
+1340895:S 19 Jul 2021 20:06:02.935 * MASTER <-> REPLICA sync started
+1340895:S 19 Jul 2021 20:06:02.935 * Non blocking connect for SYNC fired the event.
+1340895:S 19 Jul 2021 20:06:02.935 * Master replied to PING, replication can continue...
+1340895:S 19 Jul 2021 20:06:02.936 * Trying a partial resynchronization (request b936cbb29c67b235a07ead48e8d29d54bf152d59:135592).
+1340895:S 19 Jul 2021 20:06:02.936 * Successful partial resynchronization with master.
+1340895:S 19 Jul 2021 20:06:02.936 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:C 20 Jul 2021 12:55:27.535 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12433:C 20 Jul 2021 12:55:27.535 # Redis version=255.255.255, bits=64, commit=71c0466c, modified=0, pid=12433, just started
+12433:C 20 Jul 2021 12:55:27.536 # Configuration loaded
+12433:M 20 Jul 2021 12:55:27.536 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+12433:M 20 Jul 2021 12:55:27.536 * monotonic clock: POSIX clock_gettime
+12433:M 20 Jul 2021 12:55:27.538 * Node configuration loaded, I'm c572adb82e71d7aa7b20ecf676e70597bf50b92a
+12433:M 20 Jul 2021 12:55:27.538 * Running mode=cluster, port=6384.
+12433:M 20 Jul 2021 12:55:27.538 # Server initialized
+12433:M 20 Jul 2021 12:55:27.539 * Reading RDB preamble from AOF file...
+12433:M 20 Jul 2021 12:55:27.539 * Loading RDB produced by version 255.255.255
+12433:M 20 Jul 2021 12:55:27.539 * RDB age 158696 seconds
+12433:M 20 Jul 2021 12:55:27.539 * RDB memory usage when created 2.50 Mb
+12433:M 20 Jul 2021 12:55:27.539 * RDB has an AOF tail
+12433:M 20 Jul 2021 12:55:27.539 * Reading the remaining AOF tail...
+12433:M 20 Jul 2021 12:55:27.539 # Unable to obtain the AOF file length. stat: Bad file descriptor
+12433:M 20 Jul 2021 12:55:27.539 * DB loaded from append only file: 0.000 seconds
+12433:M 20 Jul 2021 12:55:27.539 * Ready to accept connections
+12433:S 20 Jul 2021 12:55:27.539 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+12433:S 20 Jul 2021 12:55:27.539 * Connecting to MASTER 127.0.0.1:6380
+12433:S 20 Jul 2021 12:55:27.539 * MASTER <-> REPLICA sync started
+12433:S 20 Jul 2021 12:55:27.539 # Cluster state changed: ok
+12433:S 20 Jul 2021 12:55:27.540 * Non blocking connect for SYNC fired the event.
+12433:S 20 Jul 2021 12:55:27.540 * Master replied to PING, replication can continue...
+12433:S 20 Jul 2021 12:55:27.540 * Trying a partial resynchronization (request 6d307c9f7dcb1e551295fc22cdcbf5fc43c91aaa:1).
+12433:S 20 Jul 2021 12:55:27.541 * Full resync from master: e543bc268fa57e86e9047696ee355648756d0803:0
+12433:S 20 Jul 2021 12:55:27.541 * Discarding previously cached master state.
+12433:S 20 Jul 2021 12:55:27.641 * MASTER <-> REPLICA sync: receiving 181 bytes from master to disk
+12433:S 20 Jul 2021 12:55:27.641 * MASTER <-> REPLICA sync: Flushing old data
+12433:S 20 Jul 2021 12:55:27.642 * MASTER <-> REPLICA sync: Loading DB in memory
+12433:S 20 Jul 2021 12:55:27.645 * Loading RDB produced by version 255.255.255
+12433:S 20 Jul 2021 12:55:27.645 * RDB age 0 seconds
+12433:S 20 Jul 2021 12:55:27.645 * RDB memory usage when created 2.50 Mb
+12433:S 20 Jul 2021 12:55:27.645 * MASTER <-> REPLICA sync: Finished with success
+12433:S 20 Jul 2021 12:55:27.645 * Background append only file rewriting started by pid 12468
+12433:S 20 Jul 2021 12:55:27.669 * AOF rewrite child asks to stop sending diffs.
+12468:C 20 Jul 2021 12:55:27.669 * Parent agreed to stop sending diffs. Finalizing AOF...
+12468:C 20 Jul 2021 12:55:27.670 * Concatenating 0.00 MB of AOF diff received from parent.
+12468:C 20 Jul 2021 12:55:27.670 * SYNC append only file rewrite performed
+12468:C 20 Jul 2021 12:55:27.670 * AOF rewrite: 0 MB of memory used by copy-on-write
+12433:S 20 Jul 2021 12:55:27.742 * Background AOF rewrite terminated with success
+12433:S 20 Jul 2021 12:55:27.742 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+12433:S 20 Jul 2021 12:55:27.742 * Background AOF rewrite finished successfully
+12433:S 20 Jul 2021 13:55:28.065 * 1 changes in 3600 seconds. Saving...
+12433:S 20 Jul 2021 13:55:28.065 * Background saving started by pid 31860
+31860:C 20 Jul 2021 13:55:28.068 * DB saved on disk
+31860:C 20 Jul 2021 13:55:28.069 * RDB: 0 MB of memory used by copy-on-write
+12433:S 20 Jul 2021 13:55:28.166 * Background saving terminated with success
+12433:S 20 Jul 2021 16:04:56.295 * 1 changes in 3600 seconds. Saving...
+12433:S 20 Jul 2021 16:04:56.295 * Background saving started by pid 100785
+100785:C 20 Jul 2021 16:04:56.298 * DB saved on disk
+100785:C 20 Jul 2021 16:04:56.299 * RDB: 0 MB of memory used by copy-on-write
+12433:S 20 Jul 2021 16:04:56.395 * Background saving terminated with success
+12433:S 20 Jul 2021 17:04:57.039 * 1 changes in 3600 seconds. Saving...
+12433:S 20 Jul 2021 17:04:57.040 * Background saving started by pid 130563
+130563:C 20 Jul 2021 17:04:57.061 * DB saved on disk
+130563:C 20 Jul 2021 17:04:57.062 * RDB: 0 MB of memory used by copy-on-write
+12433:S 20 Jul 2021 17:04:57.140 * Background saving terminated with success
+12433:S 21 Jul 2021 14:08:24.362 * 1 changes in 3600 seconds. Saving...
+12433:S 21 Jul 2021 14:08:24.362 * Background saving started by pid 689250
+689250:C 21 Jul 2021 14:08:24.366 * DB saved on disk
+689250:C 21 Jul 2021 14:08:24.366 * RDB: 0 MB of memory used by copy-on-write
+12433:S 21 Jul 2021 14:08:24.463 * Background saving terminated with success
+12433:S 21 Jul 2021 15:08:25.073 * 1 changes in 3600 seconds. Saving...
+12433:S 21 Jul 2021 15:08:25.073 * Background saving started by pid 766931
+766931:C 21 Jul 2021 15:08:25.080 * DB saved on disk
+766931:C 21 Jul 2021 15:08:25.081 * RDB: 0 MB of memory used by copy-on-write
+12433:S 21 Jul 2021 15:08:25.174 * Background saving terminated with success
+12433:S 22 Jul 2021 19:59:23.942 # MASTER timeout: no data nor PING received...
+12433:S 22 Jul 2021 19:59:23.943 # Connection with master lost.
+12433:S 22 Jul 2021 19:59:23.943 * Caching the disconnected master state.
+12433:S 22 Jul 2021 19:59:23.943 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 22 Jul 2021 19:59:23.943 * MASTER <-> REPLICA sync started
+12433:S 22 Jul 2021 19:59:23.943 * Non blocking connect for SYNC fired the event.
+12433:S 22 Jul 2021 19:59:23.945 * Master replied to PING, replication can continue...
+12433:S 22 Jul 2021 19:59:23.945 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:276462).
+12433:S 22 Jul 2021 19:59:23.945 * Successful partial resynchronization with master.
+12433:S 22 Jul 2021 19:59:23.945 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 24 Jul 2021 19:48:06.735 # Connection with master lost.
+12433:S 24 Jul 2021 19:48:06.735 * Caching the disconnected master state.
+12433:S 24 Jul 2021 19:48:06.735 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 24 Jul 2021 19:48:06.736 * MASTER <-> REPLICA sync started
+12433:S 24 Jul 2021 19:48:06.736 * Non blocking connect for SYNC fired the event.
+12433:S 24 Jul 2021 19:48:06.736 * Master replied to PING, replication can continue...
+12433:S 24 Jul 2021 19:48:06.736 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:516002).
+12433:S 24 Jul 2021 19:48:06.736 * Successful partial resynchronization with master.
+12433:S 24 Jul 2021 19:48:06.736 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 29 Jul 2021 19:55:19.760 # MASTER timeout: no data nor PING received...
+12433:S 29 Jul 2021 19:55:19.760 # Connection with master lost.
+12433:S 29 Jul 2021 19:55:19.760 * Caching the disconnected master state.
+12433:S 29 Jul 2021 19:55:19.760 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 29 Jul 2021 19:55:19.761 * MASTER <-> REPLICA sync started
+12433:S 29 Jul 2021 19:55:19.761 * Non blocking connect for SYNC fired the event.
+12433:S 29 Jul 2021 19:55:19.770 * Master replied to PING, replication can continue...
+12433:S 29 Jul 2021 19:55:19.771 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1118506).
+12433:S 29 Jul 2021 19:55:19.772 * Successful partial resynchronization with master.
+12433:S 29 Jul 2021 19:55:19.772 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 30 Jul 2021 20:08:43.633 # MASTER timeout: no data nor PING received...
+12433:S 30 Jul 2021 20:08:43.633 # Connection with master lost.
+12433:S 30 Jul 2021 20:08:43.633 * Caching the disconnected master state.
+12433:S 30 Jul 2021 20:08:43.633 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 30 Jul 2021 20:08:43.633 * MASTER <-> REPLICA sync started
+12433:S 30 Jul 2021 20:08:43.633 * Non blocking connect for SYNC fired the event.
+12433:S 30 Jul 2021 20:08:43.633 * Master replied to PING, replication can continue...
+12433:S 30 Jul 2021 20:08:43.634 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1238934).
+12433:S 30 Jul 2021 20:08:43.634 * Successful partial resynchronization with master.
+12433:S 30 Jul 2021 20:08:43.634 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 31 Jul 2021 20:13:13.942 # Connection with master lost.
+12433:S 31 Jul 2021 20:13:13.943 * Caching the disconnected master state.
+12433:S 31 Jul 2021 20:13:13.943 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 31 Jul 2021 20:13:13.943 * MASTER <-> REPLICA sync started
+12433:S 31 Jul 2021 20:13:13.943 * Non blocking connect for SYNC fired the event.
+12433:S 31 Jul 2021 20:13:13.943 * Master replied to PING, replication can continue...
+12433:S 31 Jul 2021 20:13:13.943 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1358060).
+12433:S 31 Jul 2021 20:13:13.944 * Successful partial resynchronization with master.
+12433:S 31 Jul 2021 20:13:13.944 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 01 Aug 2021 20:13:31.044 # Connection with master lost.
+12433:S 01 Aug 2021 20:13:31.045 * Caching the disconnected master state.
+12433:S 01 Aug 2021 20:13:31.045 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 01 Aug 2021 20:13:31.045 * MASTER <-> REPLICA sync started
+12433:S 01 Aug 2021 20:13:31.045 * Non blocking connect for SYNC fired the event.
+12433:S 01 Aug 2021 20:13:31.046 * Master replied to PING, replication can continue...
+12433:S 01 Aug 2021 20:13:31.046 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1468492).
+12433:S 01 Aug 2021 20:13:31.047 * Successful partial resynchronization with master.
+12433:S 01 Aug 2021 20:13:31.047 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 02 Aug 2021 20:43:53.020 # Connection with master lost.
+12433:S 02 Aug 2021 20:43:53.020 * Caching the disconnected master state.
+12433:S 02 Aug 2021 20:43:53.020 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 02 Aug 2021 20:43:53.020 * MASTER <-> REPLICA sync started
+12433:S 02 Aug 2021 20:43:53.020 * Non blocking connect for SYNC fired the event.
+12433:S 02 Aug 2021 20:43:53.020 * Master replied to PING, replication can continue...
+12433:S 02 Aug 2021 20:43:53.020 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1587296).
+12433:S 02 Aug 2021 20:43:53.020 * Successful partial resynchronization with master.
+12433:S 02 Aug 2021 20:43:53.020 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 03 Aug 2021 19:53:28.132 # Connection with master lost.
+12433:S 03 Aug 2021 19:53:28.132 * Caching the disconnected master state.
+12433:S 03 Aug 2021 19:53:28.132 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 03 Aug 2021 19:53:28.132 * MASTER <-> REPLICA sync started
+12433:S 03 Aug 2021 19:53:28.132 * Non blocking connect for SYNC fired the event.
+12433:S 03 Aug 2021 19:53:28.133 * Master replied to PING, replication can continue...
+12433:S 03 Aug 2021 19:53:28.133 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1703090).
+12433:S 03 Aug 2021 19:53:28.133 * Successful partial resynchronization with master.
+12433:S 03 Aug 2021 19:53:28.133 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 04 Aug 2021 11:44:04.328 # MASTER timeout: no data nor PING received...
+12433:S 04 Aug 2021 11:44:04.328 # Connection with master lost.
+12433:S 04 Aug 2021 11:44:04.328 * Caching the disconnected master state.
+12433:S 04 Aug 2021 11:44:04.328 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 04 Aug 2021 11:44:04.329 * MASTER <-> REPLICA sync started
+12433:S 04 Aug 2021 11:44:04.329 * Non blocking connect for SYNC fired the event.
+12433:S 04 Aug 2021 11:44:04.330 * Master replied to PING, replication can continue...
+12433:S 04 Aug 2021 11:44:04.330 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1781644).
+12433:S 04 Aug 2021 11:44:04.331 * Successful partial resynchronization with master.
+12433:S 04 Aug 2021 11:44:04.331 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 04 Aug 2021 19:48:39.512 # MASTER timeout: no data nor PING received...
+12433:S 04 Aug 2021 19:48:39.512 # Connection with master lost.
+12433:S 04 Aug 2021 19:48:39.512 * Caching the disconnected master state.
+12433:S 04 Aug 2021 19:48:39.512 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 04 Aug 2021 19:48:39.513 * MASTER <-> REPLICA sync started
+12433:S 04 Aug 2021 19:48:39.513 * Non blocking connect for SYNC fired the event.
+12433:S 04 Aug 2021 19:48:39.522 * Master replied to PING, replication can continue...
+12433:S 04 Aug 2021 19:48:39.542 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1821586).
+12433:S 04 Aug 2021 19:48:39.548 * Successful partial resynchronization with master.
+12433:S 04 Aug 2021 19:48:39.548 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 05 Aug 2021 19:49:08.645 # MASTER timeout: no data nor PING received...
+12433:S 05 Aug 2021 19:49:08.645 # Connection with master lost.
+12433:S 05 Aug 2021 19:49:08.645 * Caching the disconnected master state.
+12433:S 05 Aug 2021 19:49:08.645 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 05 Aug 2021 19:49:08.646 * MASTER <-> REPLICA sync started
+12433:S 05 Aug 2021 19:49:08.646 * Non blocking connect for SYNC fired the event.
+12433:S 05 Aug 2021 19:49:08.646 * Master replied to PING, replication can continue...
+12433:S 05 Aug 2021 19:49:08.647 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:1941636).
+12433:S 05 Aug 2021 19:49:08.647 * Successful partial resynchronization with master.
+12433:S 05 Aug 2021 19:49:08.647 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 06 Aug 2021 20:05:26.622 # MASTER timeout: no data nor PING received...
+12433:S 06 Aug 2021 20:05:26.622 # Connection with master lost.
+12433:S 06 Aug 2021 20:05:26.622 * Caching the disconnected master state.
+12433:S 06 Aug 2021 20:05:26.622 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 06 Aug 2021 20:05:26.622 * MASTER <-> REPLICA sync started
+12433:S 06 Aug 2021 20:05:26.622 * Non blocking connect for SYNC fired the event.
+12433:S 06 Aug 2021 20:05:26.623 * Master replied to PING, replication can continue...
+12433:S 06 Aug 2021 20:05:26.623 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2062288).
+12433:S 06 Aug 2021 20:05:26.623 * Successful partial resynchronization with master.
+12433:S 06 Aug 2021 20:05:26.623 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 07 Aug 2021 19:36:38.546 # MASTER timeout: no data nor PING received...
+12433:S 07 Aug 2021 19:36:38.550 # Connection with master lost.
+12433:S 07 Aug 2021 19:36:38.550 * Caching the disconnected master state.
+12433:S 07 Aug 2021 19:36:38.550 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 07 Aug 2021 19:36:38.550 * MASTER <-> REPLICA sync started
+12433:S 07 Aug 2021 19:36:38.550 * Non blocking connect for SYNC fired the event.
+12433:S 07 Aug 2021 19:36:38.582 * Master replied to PING, replication can continue...
+12433:S 07 Aug 2021 19:36:38.582 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2178474).
+12433:S 07 Aug 2021 19:36:38.582 * Successful partial resynchronization with master.
+12433:S 07 Aug 2021 19:36:38.582 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 09 Aug 2021 19:21:50.018 # MASTER timeout: no data nor PING received...
+12433:S 09 Aug 2021 19:21:50.018 # Connection with master lost.
+12433:S 09 Aug 2021 19:21:50.018 * Caching the disconnected master state.
+12433:S 09 Aug 2021 19:21:50.018 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 09 Aug 2021 19:21:50.018 * MASTER <-> REPLICA sync started
+12433:S 09 Aug 2021 19:21:50.018 * Non blocking connect for SYNC fired the event.
+12433:S 09 Aug 2021 19:21:50.022 * Master replied to PING, replication can continue...
+12433:S 09 Aug 2021 19:21:50.022 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2417972).
+12433:S 09 Aug 2021 19:21:50.027 * Successful partial resynchronization with master.
+12433:S 09 Aug 2021 19:21:50.028 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 10 Aug 2021 20:12:17.327 # MASTER timeout: no data nor PING received...
+12433:S 10 Aug 2021 20:12:17.328 # Connection with master lost.
+12433:S 10 Aug 2021 20:12:17.328 * Caching the disconnected master state.
+12433:S 10 Aug 2021 20:12:17.328 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 10 Aug 2021 20:12:17.328 * MASTER <-> REPLICA sync started
+12433:S 10 Aug 2021 20:12:17.328 * Non blocking connect for SYNC fired the event.
+12433:S 10 Aug 2021 20:12:17.329 * Master replied to PING, replication can continue...
+12433:S 10 Aug 2021 20:12:17.329 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2540864).
+12433:S 10 Aug 2021 20:12:17.329 * Successful partial resynchronization with master.
+12433:S 10 Aug 2021 20:12:17.329 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 11 Aug 2021 16:44:54.629 # MASTER timeout: no data nor PING received...
+12433:S 11 Aug 2021 16:44:54.631 # Connection with master lost.
+12433:S 11 Aug 2021 16:44:54.631 * Caching the disconnected master state.
+12433:S 11 Aug 2021 16:44:54.631 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 11 Aug 2021 16:44:54.631 * MASTER <-> REPLICA sync started
+12433:S 11 Aug 2021 16:44:54.632 * Non blocking connect for SYNC fired the event.
+12433:S 11 Aug 2021 16:44:54.632 * Master replied to PING, replication can continue...
+12433:S 11 Aug 2021 16:44:54.632 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2629302).
+12433:S 11 Aug 2021 16:44:54.632 * Successful partial resynchronization with master.
+12433:S 11 Aug 2021 16:44:54.632 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 13 Aug 2021 16:46:05.663 # Connection with master lost.
+12433:S 13 Aug 2021 16:46:05.665 * Caching the disconnected master state.
+12433:S 13 Aug 2021 16:46:05.665 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 13 Aug 2021 16:46:05.665 * MASTER <-> REPLICA sync started
+12433:S 13 Aug 2021 16:46:05.665 * Non blocking connect for SYNC fired the event.
+12433:S 13 Aug 2021 16:46:05.665 * Master replied to PING, replication can continue...
+12433:S 13 Aug 2021 16:46:05.665 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:2856662).
+12433:S 13 Aug 2021 16:46:05.666 * Successful partial resynchronization with master.
+12433:S 13 Aug 2021 16:46:05.666 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 15 Aug 2021 19:24:31.843 # Connection with master lost.
+12433:S 15 Aug 2021 19:24:31.843 * Caching the disconnected master state.
+12433:S 15 Aug 2021 19:24:31.843 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 15 Aug 2021 19:24:31.843 * MASTER <-> REPLICA sync started
+12433:S 15 Aug 2021 19:24:31.843 * Non blocking connect for SYNC fired the event.
+12433:S 15 Aug 2021 19:24:31.843 * Master replied to PING, replication can continue...
+12433:S 15 Aug 2021 19:24:31.843 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3109432).
+12433:S 15 Aug 2021 19:24:31.843 * Successful partial resynchronization with master.
+12433:S 15 Aug 2021 19:24:31.843 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 16 Aug 2021 20:06:19.022 # Connection with master lost.
+12433:S 16 Aug 2021 20:06:19.023 * Caching the disconnected master state.
+12433:S 16 Aug 2021 20:06:19.023 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 16 Aug 2021 20:06:19.023 * MASTER <-> REPLICA sync started
+12433:S 16 Aug 2021 20:06:19.023 * Non blocking connect for SYNC fired the event.
+12433:S 16 Aug 2021 20:06:19.024 * Master replied to PING, replication can continue...
+12433:S 16 Aug 2021 20:06:19.024 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3233206).
+12433:S 16 Aug 2021 20:06:19.024 * Successful partial resynchronization with master.
+12433:S 16 Aug 2021 20:06:19.024 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 17 Aug 2021 20:09:09.138 # Connection with master lost.
+12433:S 17 Aug 2021 20:09:09.139 * Caching the disconnected master state.
+12433:S 17 Aug 2021 20:09:09.139 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 17 Aug 2021 20:09:09.139 * MASTER <-> REPLICA sync started
+12433:S 17 Aug 2021 20:09:09.139 * Non blocking connect for SYNC fired the event.
+12433:S 17 Aug 2021 20:09:09.140 * Master replied to PING, replication can continue...
+12433:S 17 Aug 2021 20:09:09.140 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3352654).
+12433:S 17 Aug 2021 20:09:09.140 * Successful partial resynchronization with master.
+12433:S 17 Aug 2021 20:09:09.140 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 18 Aug 2021 11:21:19.545 # Connection with master lost.
+12433:S 18 Aug 2021 11:21:19.545 * Caching the disconnected master state.
+12433:S 18 Aug 2021 11:21:19.546 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 18 Aug 2021 11:21:19.546 * MASTER <-> REPLICA sync started
+12433:S 18 Aug 2021 11:21:19.546 * Non blocking connect for SYNC fired the event.
+12433:S 18 Aug 2021 11:21:19.546 * Master replied to PING, replication can continue...
+12433:S 18 Aug 2021 11:21:19.547 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3428436).
+12433:S 18 Aug 2021 11:21:19.547 * Successful partial resynchronization with master.
+12433:S 18 Aug 2021 11:21:19.547 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 18 Aug 2021 19:48:03.133 # Connection with master lost.
+12433:S 18 Aug 2021 19:48:03.142 * Caching the disconnected master state.
+12433:S 18 Aug 2021 19:48:03.142 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 18 Aug 2021 19:48:03.142 * MASTER <-> REPLICA sync started
+12433:S 18 Aug 2021 19:48:03.142 * Non blocking connect for SYNC fired the event.
+12433:S 18 Aug 2021 19:48:03.142 * Master replied to PING, replication can continue...
+12433:S 18 Aug 2021 19:48:03.142 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3470716).
+12433:S 18 Aug 2021 19:48:03.143 * Successful partial resynchronization with master.
+12433:S 18 Aug 2021 19:48:03.143 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 20 Aug 2021 19:55:09.957 # MASTER timeout: no data nor PING received...
+12433:S 20 Aug 2021 19:55:09.958 # Connection with master lost.
+12433:S 20 Aug 2021 19:55:09.958 * Caching the disconnected master state.
+12433:S 20 Aug 2021 19:55:09.958 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 20 Aug 2021 19:55:09.958 * MASTER <-> REPLICA sync started
+12433:S 20 Aug 2021 19:55:09.958 * Non blocking connect for SYNC fired the event.
+12433:S 20 Aug 2021 19:55:09.958 * Master replied to PING, replication can continue...
+12433:S 20 Aug 2021 19:55:09.958 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3711810).
+12433:S 20 Aug 2021 19:55:09.959 * Successful partial resynchronization with master.
+12433:S 20 Aug 2021 19:55:09.959 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+12433:S 21 Aug 2021 19:58:29.434 # MASTER timeout: no data nor PING received...
+12433:S 21 Aug 2021 19:58:29.434 # Connection with master lost.
+12433:S 21 Aug 2021 19:58:29.434 * Caching the disconnected master state.
+12433:S 21 Aug 2021 19:58:29.434 * Reconnecting to MASTER 127.0.0.1:6380
+12433:S 21 Aug 2021 19:58:29.434 * MASTER <-> REPLICA sync started
+12433:S 21 Aug 2021 19:58:29.434 * Non blocking connect for SYNC fired the event.
+12433:S 21 Aug 2021 19:58:29.435 * Master replied to PING, replication can continue...
+12433:S 21 Aug 2021 19:58:29.435 * Trying a partial resynchronization (request e543bc268fa57e86e9047696ee355648756d0803:3831986).
+12433:S 21 Aug 2021 19:58:29.435 * Successful partial resynchronization with master.
+12433:S 21 Aug 2021 19:58:29.435 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
